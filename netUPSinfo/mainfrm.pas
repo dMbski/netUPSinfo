@@ -215,7 +215,7 @@ begin
   if netupsNUT <> nil then
   begin
     netupsNUT.Terminate;
-    netupsNUT.WaitFor;
+    //netupsNUT.WaitFor;
     netupsNUT := nil;
   end;
 
@@ -231,7 +231,7 @@ begin
   if netupsNUT <> nil then
   begin
     netupsNUT.Terminate;
-    netupsNUT.WaitFor;
+    //netupsNUT.WaitFor;
     netupsNUT := nil;
   end;
 
@@ -310,7 +310,7 @@ begin
   if netupsNUT <> nil then
   begin
     netupsNUT.Terminate;
-    netupsNUT.WaitFor;
+    //netupsNUT.WaitFor;
   end;
 
   logMe('FormDestroy.', logLevInfo);

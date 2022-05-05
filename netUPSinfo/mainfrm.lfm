@@ -18,9 +18,9 @@ object frmWindow: TfrmWindow
     Height = 352
     Top = 0
     Width = 550
-    ActivePage = Tab0Run
+    ActivePage = Tab2Config
     Align = alClient
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 0
     object Tab0Run: TTabSheet
       Caption = 'Tab0Run'

@@ -670,6 +670,7 @@ begin
       end;
 
     end;//end case
+    if Terminated then Exit;
     Sleep(100);
   end;//end main execute loop
 end;
